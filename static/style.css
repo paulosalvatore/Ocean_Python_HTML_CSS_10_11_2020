@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    min-height: calc(100vh - 40px);
+    padding: 20px 0;
+}
+
+.jogo {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 500px;
+}
