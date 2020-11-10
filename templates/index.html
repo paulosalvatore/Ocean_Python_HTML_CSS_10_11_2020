@@ -32,9 +32,17 @@
 
         {% else %}
 
-        {{ nome_jogador }}<br>
-        {{ premio }}<br>
-        {{ premio_imagem }}<br>
+        <div class="jogo__premio">
+            {{ nome_jogador }}, você recebeu <b>{{ premio }}</b>
+        </div>
+
+        <div class="jogo__premio-imagem">
+            <img src="{{ premio_imagem }}" alt="Imagem de {{ premio }}" width="100%">
+        </div>
+
+        <div class="jogo__input jogo__input--jogar_novamente">
+            <a href="/" class="jogo__botao">Jogar novamente!</a>
+        </div>
 
         {% endif %}
 
